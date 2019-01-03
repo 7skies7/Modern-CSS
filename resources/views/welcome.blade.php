@@ -33,22 +33,22 @@
                 <div class="row">
                     <div class="col">
                         <div class="box">
-                            <div class="card flex">
-                                <div class="card-left flex flex-col justify-between items-center text-center rounded text-white p-6">
-                                    <a href="#" class="card-skill-button">PHP</a>
+                            <div class="card flex rounded bg-white">
+                                <div class="card-left flex flex-col justify-between items-center text-center rounded text-white p-5">
+                                    <a href="#" class="card-skill-button text-inherit no-underline text-xs px-8 py-2 rounded-full">PHP</a>
                                     <img src="https://laracasts.com/images/series/2018/the-php-practitioner.svg">
-                                    <span class="card-difficulty">Intermediate Difficulty</span>
+                                    <span class="card-difficulty text-sm">Intermediate Difficulty</span>
                                 </div>
-                                <div class="card-right flex flex-col text-grey-darker p-6">
-                                    <h1 class="card-title mb-20">Testing Jargon</h1>
-                                    <p class="card-excerpt">Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns</p>
+                                <div class="card-right flex flex-col text-grey-darker p-5">
+                                    <h1 class="card-title mb-5 text-black text-3xl font-medium">Testing Jargon</h1>
+                                    <p class="card-excerpt flex-1">Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns</p>
                                     <div class="card-meta flex">
-                                        <div class="flex">
-                                            <img src="https://laracasts.com/images/icons/books.svg">
+                                        <div class="flex mr-5">
+                                            <img src="https://laracasts.com/images/icons/books.svg" class="mr-1">
                                             5 lessons
                                         </div>
                                         <div class="flex">
-                                            <img src="https://laracasts.com/images/icons/clock.svg">
+                                            <img src="https://laracasts.com/images/icons/clock.svg" class="mr-1">
                                             53:10 min
                                         </div>
                                     </div>
