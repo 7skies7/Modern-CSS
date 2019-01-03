@@ -8,8 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open-sans:400,500" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
         <link href="/css/app.css" rel="stylesheet" type="text/css">
-        <link href="/css/normalize.css" rel="stylesheet" type="text/css">
 
 
     </head>
@@ -33,21 +33,21 @@
                 <div class="row">
                     <div class="col">
                         <div class="box">
-                            <div class="card">
-                                <div class="card-left">
+                            <div class="card flex">
+                                <div class="card-left flex flex-col justify-between items-center text-center rounded text-white p-6">
                                     <a href="#" class="card-skill-button">PHP</a>
                                     <img src="https://laracasts.com/images/series/2018/the-php-practitioner.svg">
                                     <span class="card-difficulty">Intermediate Difficulty</span>
                                 </div>
-                                <div class="card-right">
-                                    <h1 class="card-title">Testing Jargon</h1>
+                                <div class="card-right flex flex-col text-grey-darker p-6">
+                                    <h1 class="card-title mb-20">Testing Jargon</h1>
                                     <p class="card-excerpt">Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns Lorem Ipsum aslut itns</p>
-                                    <div class="card-meta">
-                                        <div>
+                                    <div class="card-meta flex">
+                                        <div class="flex">
                                             <img src="https://laracasts.com/images/icons/books.svg">
                                             5 lessons
                                         </div>
-                                        <div>
+                                        <div class="flex">
                                             <img src="https://laracasts.com/images/icons/clock.svg">
                                             53:10 min
                                         </div>

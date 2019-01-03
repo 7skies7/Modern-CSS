@@ -45,7 +45,6 @@ nav > a{
 .section{
 	padding: 30px;
 }
-.flex,
 .row{
 	display: flex;
 	margin-left: -10px;
@@ -73,27 +72,13 @@ nav > a{
 	background: white;
 	width: 475px;
 	height: 258px;
-	display: flex;	
 	border-radius: 10px;
 }
-.card-left, .card-right{
-	padding: 20px;
-}
+
 .card-left{
 	background-image: linear-gradient(to bottom,#21c8f6,#637bff);
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	color:white;
-	align-items:center;
-	border-radius: 10px;
 }
-.card-right{
-	color:#888;
-	display: flex;
-	flex-direction: column;
-}
+
 .card-title{
 	color:#222;
 	font-size:1.7em;
@@ -108,14 +93,8 @@ nav > a{
 .card-excerpt{
 	flex: 1;
 }
-.card-meta{
-	display: flex;
-}
 .card-meta > div:first-child {
 	margin-right: 1em;
-}
-.card-meta > div {
-	display: flex;
 }
 .card-meta > div > img{
 	margin-right: 0.5em;
